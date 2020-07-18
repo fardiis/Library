@@ -1,0 +1,16 @@
+D:\sqlproj\Managment Library\bin\Debug\Managment Library.exe.config
+D:\sqlproj\Managment Library\bin\Debug\Managment Library.exe
+D:\sqlproj\Managment Library\bin\Debug\Managment Library.pdb
+D:\sqlproj\Managment Library\obj\Debug\Managment_Library.Properties.Resources.resources
+D:\sqlproj\Managment Library\obj\Debug\Managment_Library.UI.Form1.resources
+D:\sqlproj\Managment Library\obj\Debug\Managment_Library.UI.Registration.resources
+D:\sqlproj\Managment Library\obj\Debug\Managment Library.csproj.GenerateResource.cache
+D:\sqlproj\Managment Library\obj\Debug\Managment Library.csproj.CoreCompileInputs.cache
+D:\sqlproj\Managment Library\obj\Debug\Managment Library.exe
+D:\sqlproj\Managment Library\obj\Debug\Managment Library.pdb
+D:\sqlproj\Managment Library\obj\Debug\Managment_Library.UI.SabtAdmin.resources
+D:\sqlproj\Managment Library\obj\Debug\Managment_Library.UI.SabtDarkhast.resources
+D:\sqlproj\Managment Library\obj\Debug\Managment_Library.UI.SabteKetab.resources
+D:\sqlproj\Managment Library\obj\Debug\Managment Library.csprojAssemblyReference.cache
+D:\sqlproj\Managment Library\obj\Debug\Managment_Library.UI.BookList.resources
+D:\sqlproj\Managment Library\obj\Debug\Managment_Library.UI.BookLoan.resources
