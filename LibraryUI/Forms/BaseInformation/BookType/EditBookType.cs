@@ -13,7 +13,7 @@ namespace LibraryUI.Forms.BaseInformation.BookType
     public partial class EditBookType : Form
     {
         public BuisnesLibrary.Entities.BookType BookType { get; set; }
-        public EditBookType(BuisnesLibrary.Entities.BookType carTypeToEdit)
+        public EditBookType(BuisnesLibrary.Entities.BookType bookTypeToEdit)
         
         {
             InitializeComponent();

@@ -1,0 +1,9 @@
+D:\sqlproj\Managment Library\BuisnesLibrary\bin\Debug\BuisnesLibrary.dll
+D:\sqlproj\Managment Library\BuisnesLibrary\bin\Debug\BuisnesLibrary.pdb
+D:\sqlproj\Managment Library\BuisnesLibrary\bin\Debug\DataAccess.dll
+D:\sqlproj\Managment Library\BuisnesLibrary\bin\Debug\DataAccess.pdb
+D:\sqlproj\Managment Library\BuisnesLibrary\obj\Debug\BuisnesLibrary.csprojAssemblyReference.cache
+D:\sqlproj\Managment Library\BuisnesLibrary\obj\Debug\BuisnesLibrary.csproj.CoreCompileInputs.cache
+D:\sqlproj\Managment Library\BuisnesLibrary\obj\Debug\BuisnesLibrary.csproj.CopyComplete
+D:\sqlproj\Managment Library\BuisnesLibrary\obj\Debug\BuisnesLibrary.dll
+D:\sqlproj\Managment Library\BuisnesLibrary\obj\Debug\BuisnesLibrary.pdb

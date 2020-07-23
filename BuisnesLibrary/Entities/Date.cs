@@ -14,6 +14,7 @@ namespace BuisnesLibrary.Entities
         #region Properties
         public int ID { get; set; }
         public  DateTime EntranceDate { get; set; }
+        public DateTime bargasht { get; set; }
 
 
 
@@ -51,14 +52,16 @@ namespace BuisnesLibrary.Entities
 
         public bool Insert()
         {
-            string command = "INSERT into [Date](EntranceDate,KarbarID,BookTypeID) values(@EntranceDate,@KarbarID ,@BookTypeID)";
+            string command = "INSERT into [Date](EntranceDate,KarbarID,BookTypeID,bargasht) values(@EntranceDate,@KarbarID ,@bargasht)";
 
             List<SqlParameter> parametersList = new List<SqlParameter>();
             var entranceDateParameter = new SqlParameter("@EntranceDate", this.EntranceDate);
+            var bargashtParameter = new SqlParameter("@bargasht", this.bargasht);
             var KarbarParameter = new SqlParameter("@UserID", this.Karbar.ID);
             var bookypeParameter = new SqlParameter("@BookTypeID", this.BookType.ID);
            
             parametersList.Add(entranceDateParameter);
+            parametersList.Add(bargashtParameter);
             parametersList.Add(KarbarParameter);
             parametersList.Add(bookypeParameter);
             
@@ -81,9 +84,11 @@ namespace BuisnesLibrary.Entities
                 Date date = new Date();
                 date.ID = Convert.ToInt32(r["ID"]);
                 date.EntranceDate = Convert.ToDateTime(r["EntranceDate"]);
-               
+                Date daate = new Date();
+                daate.ID = Convert.ToInt32(r["ID"]);
+                daate.EntranceDate = Convert.ToDateTime(r["bargasht"]);
                 //User
-              Karbar karbar= new Karbar();
+                Karbar karbar= new Karbar();
                 var karbarID = Convert.ToInt64(r["KarbarId"]);
                 date.Karbar = karbarList.FirstOrDefault(a => a.ID == karbarID);
 

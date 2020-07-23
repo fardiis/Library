@@ -38,6 +38,8 @@ namespace LibraryUI.Forms.BaseInformation.Date
                 EntranceDate = DateTime.Now,
                 BookType = bindingSourceBookType.Current as BuisnesLibrary.Entities.BookType,
                 Karbar = bindingSourceKarbar.Current as BuisnesLibrary.Entities.Karbar,
+
+
             };
 
             var result = date.Insert();
@@ -53,5 +55,7 @@ namespace LibraryUI.Forms.BaseInformation.Date
             DataRefreshUsers();
             DataRefreshCarTypes();
         }
+
+       
     }
 }

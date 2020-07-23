@@ -70,23 +70,41 @@
     <Compile Include="Forms\BaseInformation\BookType\NewBookType.Designer.cs">
       <DependentUpon>NewBookType.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Karbar\EditKarbar.cs">
+    <Compile Include="Forms\BaseInformation\Date\AmanatList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Karbar\EditKarbar.Designer.cs">
+    <Compile Include="Forms\BaseInformation\Date\AmanatList.Designer.cs">
+      <DependentUpon>AmanatList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseInformation\Date\SabtAmanat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseInformation\Date\SabtAmanat.Designer.cs">
+      <DependentUpon>SabtAmanat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseInformation\Karbar\EditKarbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseInformation\Karbar\EditKarbar.Designer.cs">
       <DependentUpon>EditKarbar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Karbar\KarbarList.cs">
+    <Compile Include="Forms\BaseInformation\Karbar\KarbarList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Karbar\KarbarList.Designer.cs">
+    <Compile Include="Forms\BaseInformation\Karbar\KarbarList.Designer.cs">
       <DependentUpon>KarbarList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Karbar\NewKarbar.cs">
+    <Compile Include="Forms\BaseInformation\Karbar\NewKarbar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Karbar\NewKarbar.Designer.cs">
+    <Compile Include="Forms\BaseInformation\Karbar\NewKarbar.Designer.cs">
       <DependentUpon>NewKarbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseInformation\Karbar\Registry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseInformation\Karbar\Registry.Designer.cs">
+      <DependentUpon>Registry.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
@@ -96,6 +114,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Account\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\BaseInformation\BookType\BookTypeList.resx">
       <DependentUpon>BookTypeList.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,14 +126,23 @@
     <EmbeddedResource Include="Forms\BaseInformation\BookType\NewBookType.resx">
       <DependentUpon>NewBookType.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Karbar\EditKarbar.resx">
+    <EmbeddedResource Include="Forms\BaseInformation\Date\AmanatList.resx">
+      <DependentUpon>AmanatList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseInformation\Date\SabtAmanat.resx">
+      <DependentUpon>SabtAmanat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseInformation\Karbar\EditKarbar.resx">
       <DependentUpon>EditKarbar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Karbar\KarbarList.resx">
+    <EmbeddedResource Include="Forms\BaseInformation\Karbar\KarbarList.resx">
       <DependentUpon>KarbarList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Karbar\NewKarbar.resx">
+    <EmbeddedResource Include="Forms\BaseInformation\Karbar\NewKarbar.resx">
       <DependentUpon>NewKarbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseInformation\Karbar\Registry.resx">
+      <DependentUpon>Registry.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -149,5 +179,6 @@
       <Name>DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

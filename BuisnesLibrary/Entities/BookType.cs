@@ -19,7 +19,7 @@ namespace BuisnesLibrary.Entities
         #region Crud
         public bool Insert()
         {
-            string command = "Insert into[Book] (bookname) values (@bookname)";
+            string command = "Insert into[BookType] (bookname) values (@bookname)";
 
             List<SqlParameter> parametersList = new List<SqlParameter>();
             var nameParameter = new SqlParameter("@bookname", this.BookName);
@@ -32,7 +32,7 @@ namespace BuisnesLibrary.Entities
 
         public bool Update()
         {
-            string command = "Update [Book] set [name]=@name where ID=@id";
+            string command = "Update [BookType] set [name]=@name where ID=@id";
 
             List<SqlParameter> parametersList = new List<SqlParameter>();
             var nameParameter = new SqlParameter("@bookname", this.BookName);
@@ -46,7 +46,7 @@ namespace BuisnesLibrary.Entities
         }
         public bool Delete()
         {
-            string command = "delete from [Book] where ID=@id";
+            string command = "delete from [BookType] where ID=@id";
 
             List<SqlParameter> parametersList = new List<SqlParameter>();
             var idParameter = new SqlParameter("@id", this.ID);
@@ -60,7 +60,7 @@ namespace BuisnesLibrary.Entities
         }
         public List<BookType> Read()
         {
-            string command = "Select * from Book";
+            string command = "Select * from BookType";
             var db = new DataAccess.DataBaseManager();
             var result = db.GetData(command);
 
@@ -77,7 +77,7 @@ namespace BuisnesLibrary.Entities
         }
         public int GetCount()
         {
-            string command = "select count(*) from Book where [bookname]=@bookname";
+            string command = "select count(*) from BookType where [bookname]=@bookname";
 
             List<SqlParameter> parametersList = new List<SqlParameter>();
             var nameParameter = new SqlParameter("@bookname", this.BookName);

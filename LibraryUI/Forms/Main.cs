@@ -29,5 +29,23 @@ namespace LibraryUI.Forms
             Forms.BaseInformation.BookType.NewBookType newBookType = new BaseInformation.BookType.NewBookType();
             newBookType.ShowDialog();
         }
+
+        private void لیستکاربرانToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.BaseInformation.Karbar.KarbarList karbarList = new BaseInformation.Karbar.KarbarList();
+            karbarList.ShowDialog();
+        }
+
+        private void لیستاماناتToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.BaseInformation.Date.AmanatList amanatList = new BaseInformation.Date.AmanatList();
+            amanatList.ShowDialog();
+        }
+
+        private void ثبتامانتToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Forms.BaseInformation.Date.SabtAmanat sabtAmanat = new BaseInformation.Date.SabtAmanat();
+            sabtAmanat.ShowDialog();
+        }
     }
 }

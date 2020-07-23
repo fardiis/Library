@@ -1,0 +1,6 @@
+D:\sqlproj\Managment Library\DataAccess\bin\Debug\DataAccess.dll
+D:\sqlproj\Managment Library\DataAccess\bin\Debug\DataAccess.pdb
+D:\sqlproj\Managment Library\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+D:\sqlproj\Managment Library\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\sqlproj\Managment Library\DataAccess\obj\Debug\DataAccess.dll
+D:\sqlproj\Managment Library\DataAccess\obj\Debug\DataAccess.pdb

@@ -61,7 +61,7 @@
             // 
             // btnsabt
             // 
-            this.btnsabt.Location = new System.Drawing.Point(258, 215);
+            this.btnsabt.Location = new System.Drawing.Point(252, 254);
             this.btnsabt.Name = "btnsabt";
             this.btnsabt.Size = new System.Drawing.Size(85, 29);
             this.btnsabt.TabIndex = 6;
@@ -71,7 +71,7 @@
             // 
             // btncancrl
             // 
-            this.btncancrl.Location = new System.Drawing.Point(49, 215);
+            this.btncancrl.Location = new System.Drawing.Point(36, 254);
             this.btncancrl.Name = "btncancrl";
             this.btncancrl.Size = new System.Drawing.Size(82, 29);
             this.btncancrl.TabIndex = 7;
